@@ -1,4 +1,4 @@
-package FactoryPattern;
+package create.factory;
 
 public class ProductFactory {
 	public void getProduct(String type) {

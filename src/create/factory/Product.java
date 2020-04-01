@@ -1,4 +1,4 @@
-package FactoryPattern;
+package create.factory;
 
 public interface Product {
 

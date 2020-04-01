@@ -1,4 +1,4 @@
-package ObserverPattern;
+package behavior.observer;
 
 public class ObserverPatternDemo {
 

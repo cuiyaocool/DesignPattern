@@ -1,5 +1,8 @@
-package FactoryPattern;
+package create.factory;
 
+/**
+ * @author cuiyaocy
+ */
 public class FactorPatternDemo {
 
 	public static void main(String[] args) {

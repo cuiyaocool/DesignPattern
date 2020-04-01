@@ -1,4 +1,4 @@
-package ObserverPattern;
+package behavior.observer;
 
 public abstract class Observer {
 	protected Subject subject;

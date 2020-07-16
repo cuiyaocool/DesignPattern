@@ -2,33 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84c397d-7318-4e21-b8e2-1afd0d4f8e4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavior/observer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FactoryPattern/FactorPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FactoryPattern/ProduceOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FactoryPattern/ProduceTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FactoryPattern/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FactoryPattern/ProductFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ObserverPattern/BinaryObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ObserverPattern/HexObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ObserverPattern/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ObserverPattern/ObserverPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ObserverPattern/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/FactorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/factory/FactorPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/ProduceOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/factory/ProduceOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/ProduceTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/factory/ProduceTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/factory/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/factory/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/BinaryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavior/observer/BinaryObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/HexObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavior/observer/HexObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavior/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/ObserverPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavior/observer/ObserverPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavior/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/state/ChirldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/state/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/state/OldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/state/StatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/strategy/BubbleSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/strategy/QuickSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/strategy/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavior/strategy/StrategyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/behaviorTypePattern/ObserverPattern/BinaryObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/behaviorTypePattern/ObserverPattern/HexObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/behaviorTypePattern/ObserverPattern/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/behaviorTypePattern/ObserverPattern/ObserverPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/behaviorTypePattern/ObserverPattern/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/createTypePattern/FactoryPattern/FactorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/createTypePattern/FactoryPattern/ProduceOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/createTypePattern/FactoryPattern/ProduceTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/createTypePattern/FactoryPattern/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/createTypePattern/FactoryPattern/ProductFactory.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,29 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/create/factory/FactorPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavior/observer/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
-              <first_editor relative-caret-position="48">
+              <first_editor relative-caret-position="60">
                 <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               </first_editor>
               <second_editor />
@@ -70,7 +46,106 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/strategy/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/strategy/QuickSortStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/strategy/BubbleSortStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/strategy/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/strategy/StrategyPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/behavior/strategy/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="20">
+                <caret column="49" selection-start-column="49" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/state/OldState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavior/state/ChirldState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,6 +157,17 @@
         <option value="$PROJECT_DIR$/src/create_type/factoryPattern/FactorPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/create/factory/FactorPatternDemo.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/behavior/state/Human.java" />
+        <option value="$PROJECT_DIR$/src/behavior/state/State.java" />
+        <option value="$PROJECT_DIR$/src/behavior/state/StatePatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/behavior/state/ChirldState.java" />
+        <option value="$PROJECT_DIR$/src/behavior/state/OldState.java" />
+        <option value="$PROJECT_DIR$/src/behavior/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/behavior/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/behavior/strategy/StrategyPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/behavior/strategy/BubbleSortStrategy.java" />
+        <option value="$PROJECT_DIR$/src/behavior/strategy/QuickSortStrategy.java" />
+        <option value="$PROJECT_DIR$/src/behavior/strategy/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -112,26 +198,27 @@
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="behavior" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="behavior" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585487439160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594854152560" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -151,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StrategyPatternDemo">
     <configuration name="FactorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="createTypePattern.FactoryPattern.FactorPatternDemo" />
       <module name="DesignPattern" />
@@ -165,8 +252,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavior.state.StatePatternDemo" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavior.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavior.strategy.StrategyPatternDemo" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavior.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternDemo" />
+        <item itemvalue="Application.StatePatternDemo" />
         <item itemvalue="Application.FactorPatternDemo" />
       </list>
     </recent_temporary>
@@ -183,16 +298,18 @@
       <updated>1585476438344</updated>
       <workItem from="1585476446955" duration="2401000" />
       <workItem from="1585527808919" duration="69000" />
+      <workItem from="1594849011582" duration="5408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2470000" />
+    <option name="totallyTimeSpent" value="7878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25743243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -201,7 +318,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26589596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,6 +329,9 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -229,8 +349,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/create/factory/FactorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="300">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_211/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="174" column="15" selection-start-line="174" selection-start-column="7" selection-end-line="174" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/state/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/state/StatePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/state/ChirldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/state/OldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -245,8 +417,57 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
-          <first_editor relative-caret-position="48">
+          <first_editor relative-caret-position="60">
             <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/strategy/BubbleSortStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/strategy/QuickSortStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/strategy/StrategyPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavior/strategy/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret column="49" selection-start-column="49" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
